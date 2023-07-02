@@ -1,0 +1,12 @@
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+  <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+    <b:if cond='data:blog.isMobileRequest'>
+      <meta content='0;url=/' http-equiv='refresh'/>
+    </b:if>
+    <b:if cond='!data:blog.isMobileRequest'>
+      <script>
+        window.location.href = &quot;/&quot;;
+      </script>
+    </b:if>
+  </b:if>
+</b:if>
